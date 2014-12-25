@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0289765530351e9409d8d6dfdb9f8c01, type: 3}
+  m_Name: Fireball 3
+  m_EditorClassIdentifier: 
+  name: Fireball
+  description: 
+  texture: {fileID: 2800000, guid: 9125425c6569a564da04a4851e405f4c, type: 3}
+  selected: 1
+  cooldownLength: .5
+  castLength: .100000001
+  castCountdown: 0
+  chargeAmount: 0
+  chargeRate: 0
+  disChargeRate: 0
+  chargeMin: 0
+  chargeMax: 0
+  state: 1
+  abilityManager: {fileID: 0}
+  manaCost: 0
+  projectilePrefab: {fileID: 100000, guid: 6d7cce880062a8940a5111c69adabba6, type: 2}
+  projectileSpawnPos: Projectile Spawn Position
+  projectileSpawnDir: Projectile Spawn Direction
+  projectileCount: 3
+  projectileDelay: .100000001
+  projectileSpread:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 1.49986207
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  selectEffects: []
+  chargeEffects: []
+  castEffects: []
+  castEffectFrequency: 0

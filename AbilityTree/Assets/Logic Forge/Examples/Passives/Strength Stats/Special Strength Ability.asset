@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0289765530351e9409d8d6dfdb9f8c01, type: 3}
+  m_Name: Special Strength Ability
+  m_EditorClassIdentifier: 
+  name: Special Strength Ability
+  description: A very special strength ability!
+  texture: {fileID: 2800000, guid: 6af9fb5a8433bcc499ef1c86ee233c87, type: 3}
+  selected: 0
+  cooldownLength: 1
+  castLength: 0
+  castCountdown: 0
+  chargeAmount: 0
+  chargeRate: 50
+  disChargeRate: 25
+  chargeMin: 15
+  chargeMax: 100
+  state: 0
+  abilityManager: {fileID: 0}
+  manaCost: 0
+  projectilePrefab: {fileID: 0}
+  projectileSpawnPos: 
+  projectileSpawnDir: 
+  projectileCount: 0
+  projectileDelay: 0
+  projectileSpread:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  selectEffects: []
+  chargeEffects: []
+  castEffects: []
+  castEffectFrequency: 0

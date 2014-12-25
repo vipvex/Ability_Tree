@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91fddf536983f854089879901f0bbafc, type: 3}
+  m_Name: Master Of Magics
+  m_EditorClassIdentifier: 
+  name: sdnsdg
+  description: asfasf
+  texture: {fileID: 2800000, guid: 390a2af5f8039bf48a1c04d0efe03ee6, type: 3}
+  selected: 0
+  passiveReciever: {fileID: 0}
+  abilityManager: {fileID: 0}
+  passiveEffects:
+  - methodName: UpdateIntelligence
+    value: 3
+    lifeTime: 0
+    frequency: 0
